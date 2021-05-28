@@ -12,8 +12,8 @@
 <body>
     <!-- main : background -->
     <div class="main">
-
-        <div class="container a-container" id="a-container">
+        <!-- sign up  -->
+        <div class="container signup-container" id="signup-container">
             <form class="form" id="a-form">
                 <h2 class="form_title title">Create Account</h2>
                 <input class="form_input" type="text" placeholder="Name">
@@ -22,16 +22,27 @@
                 <button class="form_button button submit">SIGN UP</button>
             </form>
         </div>
-
-        <div class="container b-container" id="b-container">
+        <!-- sign in  -->
+        <div class="container signin-container" id="signin-container">
             <form class="form" id="b-form">
                 <h2 class="form_title title">Sign in to Website</h2>
-                <div></div>
+                <input class="form_input" type="text" placeholder="Name or Email">
+                <input class="form_input" type="text" placeholder="Password">
+                <button class="form_button button submit">SIGN IN</button>
             </form>
         </div>
 
         <div class="switch" id="switch-cnt">
+            <div class="switch_circle"></div>
+            <div class="switch_circle switch_circle--t"></div>
+            <div class="switch_container" id="switch-c1">
+                <h2 class="switch_title title">Welcome Back !</h2>
+                <p class="switch_description description">To keep connected with us please login with your personal info</p>
+                <button class="switch_button button switch-btn">SIGN IN</button>
+            </div>
+            <div class="switch_container is-hidden" id="switch-c2">
 
+            </div>
         </div>
     </div>
 
